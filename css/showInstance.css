@@ -25,3 +25,6 @@
 .Grap{
 	font-size: 18px;
 }
+.content{
+    overflow: scroll;
+}

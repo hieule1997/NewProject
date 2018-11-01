@@ -292,6 +292,6 @@ body {
     transform: rotate(90deg);
 } 
 .content{
-      overflow: scroll;
+    /*overflow: scroll;*/
     height: -webkit-fill-available;
 }

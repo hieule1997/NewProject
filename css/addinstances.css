@@ -1,4 +1,6 @@
-
+.content{
+  overflow: scroll;
+}
 
 .choose_boot{
 	height: -webkit-fill-available;
@@ -23,14 +25,14 @@
 
 .boot_select select{
 	width: -webkit-fill-available;
-  	border:none;
-  	 border-bottom: 1px solid #7b7f81;
-  	 height: 40px;
+  border:none;
+  border-bottom: 1px solid #7b7f81;
+  height: 40px;
 }
 .boot button{
 	border: none;
-    background-color: white;
-    color: #f48363;
+  background-color: white;
+  color: #f48363;
 }
 .boot button:hover{
 	border: none;
@@ -49,30 +51,30 @@ textarea:focus, input:focus{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border:solid 1px black;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 	text-align:center;
 }
 .create input{
 	width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid #7b7f81;
-    margin-top: 30px;
-    height: auto
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #7b7f81;
+  margin-top: 30px;
+  height: auto
 }
 
 .create{
 	background-color: white;
 	margin: 0;
-    position: absolute;
-    left: 11%;
-    padding-bottom: 40px;
-    display: block;
-    height: 650px;
-    margin-bottom: 100px;
+  position: absolute;
+  left: 11%;
+  padding-bottom: 40px;
+  display: block;
+  height: 650px;
+  margin-bottom: 100px;
 }
 .head_create{
 	padding-top: 20px;

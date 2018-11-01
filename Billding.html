@@ -11,7 +11,7 @@
                 </link>
             </link>
         </link>
-        <link href="css/addinstances.css" rel="stylesheet" type="text/css">
+        <link href="css/home.css" rel="stylesheet" type="text/css">
             <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
         </link>
     </head>
@@ -55,7 +55,7 @@
                         </img>
                     </div>
                 </div>
-                <div class="col-md-10">
+                <!-- <div class="col-md-10">
                     <div class="sort">
                         Show X Networks of X
                         <img alt="" src="img/Showing.png">
@@ -66,7 +66,7 @@
                             </img>
                         </img>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row web">
                 <div class="col-md-2 menu">
@@ -229,139 +229,95 @@
                     </div>
                 </div>
                 <div class="col-md-10 content">
-                    <div class="col-md-10 create">
-                        <div class="head_create">
-                            Create a new Instance
-                        </div>
-                        <div class="col-md-6">
-                            <input class="input" name="" placeholder="Instance Name *" type="text"/>
-                            <div class="boot">
-                                Select boot source :
-                                <div class="boot_select">
-                                    <div class="col-md-4">
-                                        <img alt="" src="img/round-view_column-24px.png">
-                                        </img>
-                                    </div>
-                                    <div class="col-md-4">
-                                        No boot source selected
-                                    </div>
-                                    <button class="btn" type="button">
-                                        CHANGE
-                                    </button>
+                    <div class="col-md-10 home_conten">
+                        <div class="row home_billing">
+                            <span>Billing</span>
+                            <div class="row dashboard-card-left">
+                                <p class="md-card-title">
+                                    Up to date credit
+                                </p>
+                                <div class="md-card-conten">
+                                    <p>
+                                        158,923.98 EUR
+                                    </p>
+                                    <p>
+                                        -222222.00 IRR
+                                    </p>
                                 </div>
-                            </div>
-                            <div class="boot">
-                                Selected configuration :
-                                <div class="boot_select">
-                                    <div class="col-md-6">
-                                        <select name="">
-                                            <option value="">
-                                                Selected a configuration
-                                            </option>
-                                            option
-                                        </select>
-                                    </div>
-                                    <div>
-                                        No Flavor Selected
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 select_option">
-                                    <select name="">
-                                        <option value="">
-                                            Network Selection *
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 ">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 select_option">
-                                    <select name="">
-                                        <option value="">
-                                            SSH Key
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 select_option">
-                                    ADD NEW KEY
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 rootpass">
-                                    <input type="text" name="" placeholder="Root password *">
-                                </div>
-                                <div class="col-md-6 select_option">
-                                    <i class="fa fa-eye">
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="row add_btn">
-                                <div class="col-md-4">
-                                    <button class="btn btn-primary" type="button">
-                                        Create Instance
-                                    </button>
-                                </div>
-                                <div class="col-md-4">
-                                    <button class="btn" type="button">
-                                        Cancel
+                                <div class="md-card-actions">
+                                    <button class="btn">
+                                        <b>ADD CREDIT</b>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6" style="text-align: left;">
-                            <p>
-                                New OpenStack Instance
-                            </p>
-                            <p>
-                                You can create a new Instance by first choosing a name then
-                            selecting the Region where the instance will be located,
-                            the source to boot from, a configuration (flavor) and the authentication
-                            parameters.
-                            </p>
-                            <p>
-                                Boot Source Selection
-                            </p>
-                            <p>
-                                Select the image to boot from, from the list of available images.
-                            You can also boot from an instance snapshot if any is available.
-                            The option Create new volume while selecting an image will create a new
-                            volume from the selected image and will start the Instance with the volume as the main root disk
-                            You can also boot directly from an existing volume.
-                            </p>
-                            <p>
-                                Auto delete volume when instance is terminated will mark the volume to be
-                            automatically deleted when the Instance is terminated. If this option is not set, the volume
-                            will remain active even after you remove the instance and can be managed from the
-                            Volumes menu.
-                            </p>
-                            Select a configuration
-                                In order to create the new Instance you also need to select a configuration.
+                        <div class="row">
+                            <div class="dashboard-container">
+                                <span>
+                                    Summary
+                                </span>
+                                <div class="row summary">
+                                    <table class="fl-table">
+                                        <tbody>
+                                            <tr>
+                                                <td class="v-middle">
+                                                    <a ""="" href="">
+                                                        0 instances
+                                                    </a>
+                                                </td>
+                                                <td class="v-middle">
+                                                    <button class="btn">
+                                                        <strong>
+                                                        CREATE INSTANCES
+                                                        </strong>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="v-middle">
+                                                    <a ""="" href="">
+                                                        No images
+                                                    </a>
+                                                </td>
+                                                <td class="v-middle">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="v-middle">
+                                                    <a ""="" href="">
+                                                        1 volume
+                                                    </a>
+                                                </td>
+                                                <td class="v-middle">
+                                                    <button class="btn">
+                                                        <strong>
+                                                        CREATE VOLUME
+                                                        </strong>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="v-middle">
+                                                    <a ""="" href="">
+                                                        5 SSH keys
+                                                    </a>
+                                                </td>
+                                                <td class="v-middle">
+                                                    <button class="btn">
+                                                        <strong>
+                                                        ADD SSH KEY
+                                                        </strong>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-8 choose_boot">
-                <div class="col-md-6">
-                    <div class="">
-                        Select boot source
-                    </div>
-                    <div>
-                        Choose from an existing image, volume, instance snapshot or volume snapshot
-                    </div>
-                    <div>
-                        <div class="tab-coltrol">
-                            PUBLIC IMAGE
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    
                 </div>
             </div>
-            </div>
-            
         </div>
     </body>
 </html>

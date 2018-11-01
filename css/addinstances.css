@@ -57,7 +57,7 @@ textarea:focus, input:focus{
 }
 .create input{
 	width: 100%;
-  padding: 12px 20px;
+  /*padding: 12px 20px;*/
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
@@ -65,7 +65,15 @@ textarea:focus, input:focus{
   margin-top: 30px;
   height: auto
 }
-
+.rootpass input{
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom:1px solid black;
+  margin-top: 30px;
+  height: auto 
+}
 .create{
 	background-color: white;
 	margin: 0;

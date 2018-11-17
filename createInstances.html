@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+            <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                    <script src="https://code.jquery.com/jquery-1.11.1.min.js">
+                    </script>
+                </link>
+            </link>
+        </link>
+        <link href="css/home.css" rel="stylesheet" type="text/css">
+            <link href="css/createinstance.css" rel="stylesheet" type="text/css">
+                <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+            </link>
+        </link>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-md-12" id="pattern" style="background-color: #21a9e1;height: 50px">
+                    <i class="fa fa-bars" id="nac">
+                    </i>
+                    <div class="col-md-2 col-sm-2 logo">
+                        <image src="img/MediTech.png">
+                        </image>
+                    </div>
+                    <div class="col-md-2 col-sm-2 link">
+                        Home
+                        <i class="fa fa-chevron-right">
+                        </i>
+                        Instantces
+                    </div>
+                    <div class="col-md-5 col-sm-5 search">
+                        <img alt="" src="img/timkiem.png">
+                            <input name="" placeholder="Search Instantces" type="text"/>
+                        </img>
+                    </div>
+                    <div class="col-md-3 col-sm-3 login">
+                        <div>
+                            <p>
+                                Hello Demo
+                            </p>
+                        </div>
+                        <span class="dot">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 home">
+                    <div class="brand">
+                        <img alt="" src="img/Home.png">
+                            Home
+                        </img>
+                    </div>
+                </div>
+                <!-- <div class="col-md-10">
+                    <div class="sort">
+                        Show X Networks of X
+                        <img alt="" src="img/Showing.png">
+                            Name
+                            <i class="fa fa-chevron-down">
+                            </i>
+                            <img alt="" src="img/Namesort.png">
+                            </img>
+                        </img>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row web">
+                <div class="col-md-2 menu">
+                    <div class="nav-side-menu">
+                        <div class="menu-list">
+                            <ul class="menu-content collapse out" id="menu-content">
+                                <li class="collapsed" data-target="#products" data-toggle="collapse">
+                                    <a href="#">
+                                        Billing
+                                        <span class="arrow">
+                                            <i class="fa fa-chevron-right rotate">
+                                            </i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <ul class="sub-menu collapse" id="products">
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Services.png"/>
+                                            Services
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Invoices.png"/>
+                                            Invoices
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Orderservices.png"/>
+                                            Order Services
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Cart.png"/>
+                                            Cart
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Billinghistory.png"/>
+                                            Billing History
+                                        </a>
+                                    </li>
+                                </ul>
+                                <li class="collapsed" data-target="#service" data-toggle="collapse">
+                                    <a href="#">
+                                        Cloud
+                                        <span class="arrow">
+                                            <i class="fa fa-chevron-right rotate">
+                                            </i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <ul class="sub-menu collapse" id="service">
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Instances.png">
+                                                Instances
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Networks.png">
+                                                Networks
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Securitygruops.png">
+                                                Security Group
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/FloatingIPs.png">
+                                                Floating IPs
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/SSHkeys.png">
+                                                SSH Keys
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/round-view_column-24px.png">
+                                                Volumes
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Myimages.png">
+                                                My Image
+                                            </img>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <li class="collapsed" data-target="#new" data-toggle="collapse">
+                                    <a href="#">
+                                        Domain
+                                        <span class="arrow">
+                                            <i class="fa fa-chevron-right rotate">
+                                            </i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <ul class="sub-menu collapse" id="new">
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Mydomains.png">
+                                                My domain
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Registerdomain.png">
+                                                Register domain
+                                            </img>
+                                        </a>
+                                    </li>
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Transferdomain.png">
+                                                Transfer domain
+                                            </img>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <li class="collapsed" data-target="#ticket" data-toggle="collapse">
+                                    <a href="#">
+                                        Ticket
+                                        <span class="arrow">
+                                            <i class="fa fa-chevron-right rotate">
+                                            </i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <ul class="sub-menu collapse" id="ticket">
+                                    <li class="item-nav">
+                                        <a href="#">
+                                            <img alt="" src="img/Tickets.png">
+                                                Tickets
+                                            </img>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 content">
+                    <div class="col-md-10 home_conten">
+                        <div class="block1290">
+                            <div class="row" style="text-align: center;">
+                                <h1>
+                                    Create a new nstance
+                                </h1>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    1
+                                </div>
+                                <h3 style="font-size:19px;">
+                                    Instance Name
+                                </h3>
+                                <input name="instancename" type="text" style="width: 90%;height: 40px;">
+                                </input>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    2
+                                </div>
+                                <h3 style="font-size:19px;">
+                                    Server Loaction
+                                </h3>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon fonticon_jp" style="width:54px; margin-top:-18px;">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Hà Nội
+                                        </span>
+                                        <span class="create_checkbox_line2">
+                                            Việt Nam
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon fonticon_jp" style="width:54px; margin-top:-18px;">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Hồ Chí Minh
+                                        </span>
+                                        <span class="create_checkbox_line2">
+                                            Việt Nam
+                                        </span>
+                                    </label>
+                                </input>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    3
+                                </div>
+                                <h3 style="font-size:19px;">
+                                    Select boot Source
+                                </h3>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test
+                                        </span> 
+                                        <span class="create_checkbox_line2">
+                                            Centos x86_64
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test
+                                        </span>
+                                        <span class="create_checkbox_line2">
+                                             Centos x86_64
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test
+                                        </span>
+                                        <span class="create_checkbox_line2">
+                                             Centos x86_64
+                                             <div class="deploylocationsoldoutmsg">
+                                                        Temporarily Sold Out
+                                                        </div>
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test
+                                        </span>
+                                        <span class="create_checkbox_line2">
+                                             Centos x86_64
+                                             <div class="deploylocationsoldoutmsg">
+                                                        Temporarily Sold Out
+                                                        </div>
+                                        </span>
+                                    </label>
+                                </input>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    4
+                                </div>
+                                <h3 style="font-size:19px;">
+                                    Select a configuration
+                                </h3>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test64 
+                                        </span> 
+                                        <span class="create_checkbox_line2">
+                                            0.12 GB memory
+                                            <div class="deploylocationsoldoutmsg">
+                                                1 vitrual CPUs
+                                            </div>
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test64 
+                                        </span> 
+                                        <span class="create_checkbox_line2">
+                                            0.12 GB memory
+                                            <div class="deploylocationsoldoutmsg">
+                                                1 vitrual CPUs
+                                            </div>
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test64 
+                                        </span> 
+                                        <span class="create_checkbox_line2">
+                                            0.12 GB memory
+                                            <div class="deploylocationsoldoutmsg">
+                                                1 vitrual CPUs
+                                            </div>
+                                        </span>
+                                    </label>
+                                </input>
+                                <input class="create_checkbox" id="DCID25" name="DCID" onclick="updateDCIDSelected(); refreshPlanDisplay('');" type="radio" value="25">
+                                    <label for="DCID25">
+                                        <span class="create_checkbox_icon" style="width:54px; margin-top:-30px;"><img src="img/CentOS_logo.png" alt="">
+                                        </span>
+                                        <span class="create_checkbox_checkmark">
+                                        </span>
+                                        <span class="create_checkbox_line1">
+                                            Test64 
+                                        </span> 
+                                        <span class="create_checkbox_line2">
+                                            0.12 GB memory
+                                            <div class="deploylocationsoldoutmsg">
+                                                1 vitrual CPUs
+                                            </div>
+                                        </span>
+                                    </label>
+                                </input>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    5
+                                </div>
+                                <h3 style="font-size:19px;">
+                                    Network selection   
+                                </h3>
+                                <select class="js-example-basic-single" name="state">
+                                  <option value="AL">Alabama</option>
+                                  <option value="WY">Wyoming</option>
+                                </select>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    6
+                                </div>
+                                <h3 style="font-size:19px;">
+                                     SSH KEY   
+                                </h3>
+                                <input type="checkbox" name="SCRIPTID" value="357033" class="create_checkbox" id="SCRIPTID357033" onclick="toggleStartupScripts(this);">
+                                <label for="SCRIPTID357033">
+                                    <span class="create_checkbox_icon fonticon_script"><img src="img/baseline-vpn_key-24px.png" alt="">
+                                    </span>
+                                    <span class="create_checkbox_checkmark">
+                                    </span>
+                                    <span class="create_checkbox_line1">
+                                        test
+                                    </span>
+                                </label>
+                                <span class="create_linkbox" onclick="$('#orderform input[name=action]').val('redirectAddStartupScript'); $('#orderform').submit();" aria-label="Add New Startup Script">
+                                    <span class="create_checkbox_icon fonticon_add"> <img src="img/baseline-add_circle_outline-24px.png" alt="">
+                                    </span>
+                                    <span class="create_linkbox_line1">
+                                        Add New
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="create_block" style="margin-top:10px;">
+                                <div class="create_block_step">
+                                    7   
+                                </div>
+                                <h3 style="font-size:19px;">
+                                    Root Password   
+                                </h3>
+                                <span>
+                                    <input type="text" name="rootpass" style="width: 90%;height: 40px;" class="rootpass">
+                                    <img src="img/Path69.png" alt="" class="seepass">
+                                </span>
+                                
+
+                            </div>
+                            <div class="create_block" style="margin-top:10px; text-align:  center;">
+                                <button class="btn btn-primary createinstance"> Create Instance</button>
+                                <button class="btn cancle"> Cancle </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="js/main.js" type="text/javascript">
+</script>
+<script src="js/createinstance.js" type="text/javascript">
+</script>
+<script src="css/bootstrap/dist/js/bootstrap.min.js" type="text/javascript">
+</script>
